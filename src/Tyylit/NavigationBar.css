@@ -1,0 +1,12 @@
+
+/* App.css */
+.nav-link-custom {
+    color: #007bff; /* Linkin väri */
+    font-weight: bold; /* Lihavointi */
+    margin-right: 15px; /* Oikea marginaali lisää tilaa painikkeiden välille */
+  }
+  
+  .nav-link-custom:hover {
+    color: #0056b3; /* Vaihda värin hover-tilassa */
+  }
+  

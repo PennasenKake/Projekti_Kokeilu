@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(249, 102, 102);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tausta{
+  background-color: #3db7d8;
+}
+
+.tausta2{
+  background-color: #4edabe;
+}
+
+.tausta3{
+  background-color: #5985cc;
+}
+
+/* styles.css */
+.custom-navbar {
+  background-color: #f0f0f0; /* Taustaväri */
+  padding: 10px; /* Padding ylä- ja alareunassa */
+}
+
+.custom-navbar a {
+  color: #333; /* Linkkien tekstiväri */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* App.css */
+.nav-link-hover:hover {
+  color: #007bff; /* tai mikä väri sopii paremmin sinun sivustollesi */
+  background-color: transparent;
+  border-bottom: 2px solid #007bff; /* tai valitsemasi väri */
+}
+
